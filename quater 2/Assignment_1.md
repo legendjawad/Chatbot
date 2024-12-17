@@ -10,7 +10,7 @@ Refers to the number of responses you want the model to generate for a given inp
 5. Stream
 If enabled, it allows the response to be delivered piece by piece as it's being generated, rather than waiting for the entire response to be completed. This is like how typing appears in real-time during a chat.
 6. Temperature
-Controls the randomness of the model's output. Lower values (e.g., 0.2) make the model more focused and deterministic, while higher values (e.g., 0.8) make it more creative and diverse.
+Controls the randomness of the model's output. Lower values (e.g., 0.2) make the model more focused and deterministic,and innovative , while higher values (e.g., 0.8) make it less creative and diverse.
 7. Top_p
 This is another way to control randomness, but instead of adjusting the temperature, it focuses on the probability of choosing the next token. A lower top_p means only the most likely options are considered, while a higher value allows for a broader range of outputs.
 8. Tools
